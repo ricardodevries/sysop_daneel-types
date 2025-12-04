@@ -1,0 +1,21 @@
+{
+  "name": "@ricardodevries/sysop_daneel-types",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:prod": "tsc --sourceMap false"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardodevries/sysop_daneel-types.git"
+  }
+}
